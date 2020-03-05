@@ -27,7 +27,7 @@ class CreateTodo extends Component {
   this.setState({
     text: '',
   })
-}
+  }
  
 
   render() {
