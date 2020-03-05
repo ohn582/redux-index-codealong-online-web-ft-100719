@@ -9,7 +9,7 @@ class TodosContainer extends Component {
   }
 }
 
-mapStateToProps = () => {
+mapStateToProps = state => {
   
 }
 
