@@ -10,7 +10,9 @@ class TodosContainer extends Component {
 }
 
 mapStateToProps = state => {
-  
+  return {
+    todos: state.todos
+  }
 }
 
 export default connect(null, mapStateToProps)(TodosContainer);
